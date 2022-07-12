@@ -1,0 +1,180 @@
+/*for index.html / about.html / pf.html */
+html {
+  scroll-behavior: smooth;
+}
+#mysidenav a {
+  /*styling the links in the sidenav*/
+  position: absolute;
+  left: -80px;
+  transition: 0.4s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+}
+
+#mysidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: #1363df;
+}
+
+#portfolio {
+  top: 80px;
+  background-color: #8bd3c7;
+}
+#about {
+  top: 140px;
+  background-color: aqua;
+}
+/*body*/
+.body {
+  background-color: #06283d;
+}
+/* the css for the hand waving*/
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(45deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/*hand waving end*/
+.welcome {
+  font-size: xx-large;
+}
+
+.div {
+  text-align: center;
+  color: #dff6ff;
+}
+.div1 {
+  background-color: #413f42;
+  border: solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(60deg, #b16ec4, #5f9);
+}
+.div2 {
+  background-color: #06283d;
+}
+.div3 {
+  background-color: #3f4e4f;
+}
+.p {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: cursive;
+}
+.p2 {
+  text-align: right;
+}
+.join {
+  display: inline-block;
+}
+.header3 {
+  font-size: xx-large;
+  align-items: center;
+  text-align: center;
+}
+.wrap {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.band-img {
+  width: 15%;
+  height: 10%;
+}
+.skills {
+  display: inline-table;
+  padding: 20px 20px 20px 20px;
+}
+.hov:hover {
+  background-color: black;
+}
+.footer {
+  display: inline;
+  text-decoration: underline;
+}
+.web {
+  background-color: whitesmoke;
+}
+.scroll {
+  border: none;
+  background-color: #1ebcc7;
+  color: wheat;
+  scrollbar-highlight-color: #47b5ff;
+  text-align: right;
+}
+/*styling for index ends here*/
+
+/*styling for about starts here*/
+.img-pf {
+  width: 65%;
+  height: auto;
+  margin-left: 15%;
+}
+.zzz {
+  background-image: radial-gradient(#47b5ff, #1ebcc7, #1eb);
+}
+.fig1 {
+  background-color: #8bd;
+}
+.fig2 {
+  background-color: aqua;
+}
+.fig3 {
+  background-color: #413f42;
+}
+.fig4 {
+  background-color: #3f4e4f;
+}
+.bdy-pf {
+  background-color: black;
+}
+.img-logo {
+  margin-left: 15%;
+  border-radius: 50%;
+  width: 40%;
+}
+
+/*css for the portfolio*/
+.hi-lite {
+  border: solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(60deg, rgb(30, 17, 218), #5f9);
+}
